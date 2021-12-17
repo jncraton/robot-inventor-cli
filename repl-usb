@@ -1,3 +1,5 @@
 #!/bin/sh
 
+# Start a REPL over the USB connection
+
 rshell -p /dev/ttyACM0 repl
